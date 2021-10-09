@@ -1,0 +1,34 @@
+[
+{
+  "id":"ICi7",
+  "Processor":"Intel Core i7",
+  "GraphicsCard":["AMD Radeon RX580"],
+  "RAM":["Corsair Vengeance 8GB", "Kingston Hyper X 8GB", "Transcend mega 16GB"],
+  "Motherboard":["Gigabyte" , "ASUS", "Intel"],
+  "PSU":["Zebronics 450 W"]
+},
+{
+  "id":"ICi5",
+  "Processor":"Intel Core i5",
+  "GraphicsCard":["Nvidia Geforce  Titan v", "Nvidia Geforce 1070", "AMD Radeon RX580", "NVIDIA GTX 1050", "AMD Radeon RX550"],
+  "RAM":["Kingston Mega 8GB", "Transcend Mega 8 GB", "Corsair Vengeance 8GB", "Samsung EVO 8 GB", "Kingston Hyper X 8GB"],
+  "Motherboard":["Gigabyte" ,"Zebronics", "MSI", "ASUS", "Intel"],
+  "PSU":["Corsair 450W", "Zebronics 450 W", "Zebronics 550 W" , "Corsair 850 W" , "Cooler Master 350 W "]
+},
+{
+  "id":"Opteron",
+  "Processor":"Opteron",
+  "GraphicsCard":["AMD Radeon RX580", "AMD Radeon RX550"],
+  "RAM":["Transcend Mega 8 GB", "Kingston Hyper X 8GB"],
+  "Motherboard":["Zebronics", "ASUS"],
+  "PSU":["Corsair 450W", "Zebronics 450 W", "Zebronics 550 W" , "Corsair 850 W", "Cooler Master 350 W "]
+},
+{
+    "id":"amdfx",
+    "Processor":"Amd FX",
+    "GraphicsCard":["Nvidia Geforce Titan V", "NVIDIA Geforce 1070"],
+    "RAM":["Samsung Evo 8 gb"],
+    "Motherboard":["Zebronics", "MSI"],
+    "PSU":["Cooler Master 350 W"]
+}
+]

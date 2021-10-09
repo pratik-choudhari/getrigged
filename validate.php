@@ -1,0 +1,12 @@
+<?php
+session_start();
+$temp=$_SESSION['uid'];
+if(isset($temp))
+{
+	header("location:build.php");
+}
+else
+{
+	header("location:form.php");
+}
+?>

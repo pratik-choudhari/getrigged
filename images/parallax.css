@@ -1,0 +1,80 @@
+  .container
+  {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .overlay
+  {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 100%;
+    align:center;
+    height:0;
+    transition: .5s ease;
+  }
+  #parallax1
+  {
+    background-image: url("mining.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parallax2
+  {
+    background-image: url("ram.jpeg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parallax3
+  {
+    background-image: url("cooling.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parallax4
+  {
+    background-image: url("game.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cen
+  {
+    text-align: center;
+    color:white;
+    font-size:75px;
+    font-family: 'Arvo', serif;
+    padding-top: 150px;
+  }
+  .text
+  {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .containerhover .overlay
+  {
+    bottom: 0;
+    height: 100%;
+  }

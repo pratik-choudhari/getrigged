@@ -1,0 +1,33 @@
+@media screen and (max-width:1300px)
+{
+	th,td
+	{
+		font-size: 25px;
+	}
+	p.pmedia
+	{
+		font-size: 45px;
+	}
+}
+@media screen and (max-width:1200px)
+{
+	th,td
+	{
+		font-size: 20px;
+	}
+	p.pmedia
+	{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width:750px)
+{
+	th,td
+	{
+		font-size: 15px;
+	}
+	p.pmedia
+	{
+		font-size: 30px;
+	}
+}

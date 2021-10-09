@@ -1,0 +1,48 @@
+      .nav .icon
+      {
+        display: none;
+      }
+      @media screen and (max-width: 1380px) 
+      {
+        .nav ul li:not(:last-child) {display: none;}
+        .nav a.icon {float: right;display: block;}
+      }
+      @media screen and (max-width: 1380px)  
+      {
+        .nav.responsive {position: relative;z-index: 100;}
+        .nav.responsive .icon {position: absolute;right: 0;top: 0;}
+        .nav.responsive ul li{float: none;display: block;text-align: left;background-color: black;}
+      }
+      @media screen and (max-width: 800px)  
+      {
+          div .rigged
+          {
+            font-size: 65px;
+          }
+      }
+      @media screen and (max-width: 650px)  
+      {
+          div .rigged
+          {
+            font-size: 62px;
+          }
+          section div div p.cen 
+          {
+            font-size: 35px;
+          }
+
+      }
+      @media screen and (max-width: 1200px)  
+      {
+          footer div ul li.ele
+          {
+            font-size: 25px;
+          }
+      }
+      @media screen and (max-width: 880px)  
+      {
+          footer div ul li.ele
+          {
+            font-size: 20px;
+          }
+      }
