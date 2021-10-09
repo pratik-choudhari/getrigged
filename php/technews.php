@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="slides.css" type="text/css" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       .navcontainer
       {
@@ -113,7 +113,7 @@
       <li><a href="categories.php">Categories</a></li>
       <li><a href="validate.php">Build Your Rig</a></li>
       <li>
-          <?php 
+          <?php
           session_start();
           if(isset($_SESSION['uid']))
           {
@@ -131,15 +131,15 @@
 <div>
   <div class="slideshow-container">
   <div class="mySlides fade">
-    <img src="images/vision.jpg" style="width:100%" class="fit">
+    <img src="../images/vision.jpg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   <div class="mySlides fade">
-    <img src="game.jpg" style="width:100%" class="fit">
+    <img src="../images/game.jpg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   <div class="mySlides fade">
-    <img src="gaming.jpeg" style="width:100%" class="fit">
+    <img src="../images/gaming.jpeg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   </div>
@@ -152,7 +152,7 @@
 </div>
 <div class='genericdiv'>
   <div>
-    <img src='images/google_logo.jpg' class='floatimg' style="width:500px;height:250px;"></img>
+    <img src='../images/google_logo.jpg' class='floatimg' style="width:500px;height:250px;"></img>
   </div>
     <div style='padding-left:600px;'>
     <h1>Google says it has a secret China search project, but reveals no details</h1>
@@ -164,7 +164,7 @@
 </div>
 <div class='genericdiv'>
   <div>
-    <img src='images/aws.jpeg' class='floatimg' style="width:500px;height:250px;"></img>
+    <img src='../images/aws.jpeg' class='floatimg' style="width:500px;height:250px;"></img>
   </div>
   <div style='padding-left:600px;'>
     <h1>Google, IBM and others come together to take on Amazon's cloud business</h1>
@@ -176,7 +176,7 @@ Microsoft Corp's Azure and International Business Machines' IBM Cloud, as well i
 </div>
 <div class='genericdiv'>
   <div>
-    <img src='images/office.jpg' class='floatimg' style="width:500px;height:250px;"></img>
+    <img src='../images/office.jpg' class='floatimg' style="width:500px;height:250px;"></img>
   </div>
   <div style='padding-left:600px;'>
     <h1>LinkedIn wants to help recruiters understand job market better with new tool</h1>
@@ -199,8 +199,8 @@ With this tool, firms can now take the guesswork out of their hiring strategies 
     	<li class='ele'><a href="request form.php">Spare parts form</a></li>
     </ul>
     <ul type=none>
-    	<li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-    	<li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+    	<li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+    	<li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
     </ul>
   </div>
 </footer>

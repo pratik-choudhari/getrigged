@@ -5,8 +5,8 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
-    <link href="navfootmedia.css" type="text/css" rel="stylesheet">
+    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../resp/navfootmedia.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
       p
@@ -29,7 +29,7 @@
           border: 10px solid white;
       }
       body {background-color: #000000;
-      background-image: url('images/pro.jpg');
+      background-image: url('../images/pro.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -119,11 +119,11 @@
         width: 100%;
         height: 50%;
       }
-      table 
+      table
       {
         width: 100%;
       }
-      th, td 
+      th, td
       {
         padding: 15px;
         text-align: left;
@@ -131,7 +131,7 @@
       }
       tr:hover {background-color:#f5f5f5;color:black;}
     </style>
-    
+
     <title>Prebuilds</title>
   </head>
   <body>
@@ -147,7 +147,7 @@
           <li><a href="categories.php">Categories</a></li>
           <li><a href="validate.php">Build Your Rig</a></li>
           <li>
-          <?php 
+          <?php
           session_start();
           if(isset($_SESSION['uid']))
           {
@@ -171,13 +171,13 @@
               <li class='ele'><a href="">Terms and condition</a></li>
               <li class='ele'><a href="">Support US</a></li>
             </ul>
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'> 
+            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
               <li class='ele'><a href="feedback.php">Feedback</a></li>
               <li class='ele'><a href="request form.php">Spare parts form</a></li>
             </ul>
             <ul type=none>
-              <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-              <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+              <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+              <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
             </ul>
           </div>
         </footer>
@@ -185,7 +185,7 @@
       var cont=document.getElementById('disp')
         function callme(){
           var ourrequest = new XMLHttpRequest();
-          ourrequest.open("GET", "cmptble.json");
+          ourrequest.open("GET", "../cmptble.json");
           ourrequest.onload = function(){
               var ourdata= JSON.parse(ourrequest.responseText);
               var output = '';
