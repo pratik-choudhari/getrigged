@@ -29,42 +29,24 @@
       .fall
       {
         animation-name: example;
-        position: absolute;
-        top:0px;
-        left:0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
         animation-duration: 2s;
-        position: relative;
+        position: fixed;
         z-index: 999;
-      }
-      @keyframes example
-      {
-        from {top:-1000px;}
-        to {top: 0px;}
-      }
-      @media screen and (max-width: 1160px)
-      {
-        div p
-        {
-          font-size: 18px;
-          padding:8px;
-        }
-      }
-      @media screen and (max-width: 900px)
-      {
-        div p
-        { font-size: 14px;}
       }
       .popupform
       {
         display: block;
-        margin-left: 43%;
+        margin-left: 40%;
         background-color: #fff;
         width:20%;
         padding-bottom: 20px;
-        top:00px;
+        top: 100px;
         border-radius: 15px;
-        transition: 4s;
-      }S
+        position: absolute;
+      }
       .popupform form input[type='text']
       {
         margin-bottom: 15px;
@@ -164,6 +146,34 @@
       {
         font-size: 30px;
         padding-top: 20px;
+      }
+      @keyframes example
+      {
+        from {top:-1000px;}
+        to {top: 0px;}
+      }
+      @media screen and (max-width: 1160px)
+      {
+        div p
+        {
+          font-size: 18px;
+          padding:8px;
+        }
+        .popupform
+        {
+          margin-left: 25%;
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 900px)
+      {
+        div p
+        { font-size: 14px;}
+        .popupform
+        {
+          margin-left: 10%;
+          width:80%;
+        }
       }
   </style>
 </head>
