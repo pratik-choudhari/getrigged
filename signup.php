@@ -62,7 +62,7 @@
       {
         background-color:rgba( 189, 189, 189 ,1) ;
         width:40%;
-        height:600px;
+        height:850px;
         border-radius: 14px;
       }
       .centerize
@@ -72,14 +72,12 @@
       }
       input
       {
-        width: 50%;
-        padding: 12px;
-        border: none;
-        border-radius: 4px;
-        opacity: 0.85;
-        display: inline-block;
-        font-size: 15px;
-        line-height: 20px;
+        width: 80%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
         text-decoration: none; /* remove underline from anchors */
       }
       input[type=submit]
@@ -90,7 +88,7 @@
       }
       input[type=submit]:hover
       {
-        background-color: white;
+        background-color: green;
         color:black;
       }
     </style>

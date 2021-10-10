@@ -84,19 +84,17 @@
       }
       .centerize
       {
-        font-size: 40px;
-        padding-top: 20px;
+        font-size: 30px;
+        padding: 10px 10px 0px 0px;
       }
       input
       {
-        width: 50%;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        opacity: 0.85;
+        width: 80%;
+       padding: 12px 20px;
+       margin: 8px 0;
         display: inline-block;
-        font-size: 17px;
-        text-decoration: none; 
+        border: 1px solid #ccc;
+       box-sizing: border-box;
       }
       input[type=submit]
       {
@@ -106,7 +104,7 @@
       }
       input[type=submit]:hover
       {
-        background-color: white;
+        background-color: green;
         color:black;
       }
     </style>
