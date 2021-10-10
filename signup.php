@@ -62,19 +62,19 @@
       {
         background-color:rgba( 189, 189, 189 ,1) ;
         width:40%;
-        height:850px;
-        border-radius: 14px;
+        height:53.125rem;
+        border-radius: 0.875rem;
       }
       .centerize
       {
-        font-size: 30px;
-        padding-top: 20px;
+        font-size: 1.875rem;
+        padding-top: 1.25rem;
       }
       input
       {
         width: 80%;
-  padding: 10px 20px;
-  margin: 8px 0;
+  padding: 0.625rem 1.250rem;
+  margin: 0.5px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;

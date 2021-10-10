@@ -84,14 +84,14 @@
       }
       .centerize
       {
-        font-size: 30px;
-        padding: 10px 10px 0px 0px;
+        font-size: 1.875rem;
+        padding: 0.625rem 0.625rem 0rem 0rem;
       }
       input
       {
         width: 80%;
-       padding: 12px 20px;
-       margin: 8px 0;
+       padding: 0.75rem 1.25rem;
+       margin: 0.5rem 0;
         display: inline-block;
         border: 1px solid #ccc;
        box-sizing: border-box;
