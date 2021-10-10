@@ -1,7 +1,7 @@
 # getrigged
 A website made few years back by me and my friends.
 
-Disclaimer: I am sorry for the headache this project is going to give you, if you decide to make a PR, due to unstructed files and bad code quality of this project (we had just learned PHP)
+Disclaimer: I am sorry for the headache this project is going to give you, if you decide to make a PR, due to unstructured files and bad code quality of this project (we had just learned PHP)
 
 ## About the project
 This project was made to practice PHP. It is a website where the user can select various computer parts to create their own PC. Prebuilt aoptions are available too. HTML is included directly in PHP files. Sample database files are in SQL files folder.
