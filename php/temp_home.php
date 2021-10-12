@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="parallax.css">
-  <link href="footer_css.css" type="text/css" rel="stylesheet">
+  <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <title>Home</title>
   <style>
@@ -204,8 +204,8 @@
         <li class='ele'><a href="request form.html">Spare parts form</a></li>
       </ul>
       <ul type=none>
-        <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-        <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+        <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+        <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
       </ul>
       <div class="vl"></div>
       <div class="vl2"></div>
@@ -226,7 +226,7 @@
       	<li class='ele'><a href="request form.html">Spare parts form</a></li>
       </ul>
       <ul type=none>
-      	<li class='ele'><img src='fb.png' style='zoom:200%;'></li>
+      	<li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
       	<li class='ele'><img style="width:32px;height:32px;" src='insta.jpg' style='zoom:200%;'></li>
       </ul>
       <div class="vl"></div>

@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="navfootmedia.css">
+    <link rel="stylesheet" type="text/css" href="../resp/navfootmedia.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
-      body 
+      body
       {
         background-color: #000000;
-        background-image: url('images/cooling.jpg');
+        background-image: url('../images/cooling.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -96,7 +96,7 @@
         opacity: 0.85;
         display: inline-block;
         font-size: 17px;
-        text-decoration: none; 
+        text-decoration: none;
       }
       input[type=submit]
       {
@@ -119,7 +119,7 @@
         }
         input
         {
-          font-size: 15px;  
+          font-size: 15px;
         }
       }
       @media screen and (max-width:900px)
@@ -130,7 +130,7 @@
         }
         input
         {
-          font-size: 10px;  
+          font-size: 10px;
         }
         .formcontainer
         {
@@ -180,13 +180,13 @@
             	<li class='ele'><a href="">Terms and condition</a></li>
             	<li class='ele'><a href="">Support US</a></li>
             </ul>
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'> 
+            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
             	<li class='ele'><a href="feedback.php">Feedback</a></li>
             	<li class='ele'><a href="request form.php">Spare parts form</a></li>
             </ul>
             <ul type=none>
-            	<li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-            	<li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+            	<li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+            	<li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
             </ul>
           </div>
         </footer>
@@ -207,7 +207,7 @@
             {
               window.location.href="build.php";
             }
-            else 
+            else
             {
               window.location.href="form.php";
             }

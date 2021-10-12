@@ -4,8 +4,8 @@
   <title>Categories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="navfootmedia.css">
-  <link href="footer_css.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../resp/navfootmedia.css">
+  <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -122,7 +122,7 @@
         <li><a href="prebuilds.php">Prebuilds</a></li>
         <li><a class="active" href="categories.php">Categories</a></li>
         <li><a href="validate.php">Build Your Rig</a></li>
-        <li><?php 
+        <li><?php
           session_start();
           if(isset($_SESSION['uid']))
           {
@@ -140,27 +140,27 @@
   </div>
 <div class="price" >
   <a href="https://www.buildpc.in/beginner">
-    <div class="price_box" style="background: url(images/imanbeg.jpg) no-repeat;">
+    <div class="price_box" style="background: url(../images/imanbeg.jpg) no-repeat;">
       <h1 align=center style="padding-top: 40%;">&#8377; 30K<br /> Beginner</h1>
     </div>
   </a>
   <a href="https://www.buildpc.in/amateur">
-    <div class="price_box" style="background: url(images/good.jpg) no-repeat;">
+    <div class="price_box" style="background: url(../images/good.jpg) no-repeat;">
       <h1 align=center style="padding-top: 40%;">&#8377;50K <br /> Amateur</h1>
     </div>
   </a>
   <a href="https://www.buildpc.in/pro">
-    <div class="price_box" style="background: url(images/superb.jpg) no-repeat;">
+    <div class="price_box" style="background: url(../images/superb.jpg) no-repeat;">
       <h1 align=center style="padding-top: 40%;"> &#8377;70K <br /> Pro</h1>
     </div>
   </a>
   <a href="https://www.buildpc.in/expert">
-    <div class="price_box" style="background: url(images/outstanding.jpg) no-repeat;">
+    <div class="price_box" style="background: url(../images/outstanding.jpg) no-repeat;">
       <h1 align=center style="padding-top: 40%;">&#8377;100K <br /> Expert</h1>
     </div>
   </a>
   <a href="https://www.buildpc.in/mvp">
-    <div class="price_box" style="background: url(images/extreme.jpg) no-repeat;">
+    <div class="price_box" style="background: url(../images/extreme.jpg) no-repeat;">
       <h1 align=center style="padding-top: 40%;">&#8377;100K+ <br /> MVP</h1>
     </div>
   </a>
@@ -176,20 +176,20 @@
       <li class='ele'><a href="request form.php">Spare parts form</a></li>
     </ul>
     <ul type=none>
-      <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-      <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+      <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+      <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
     </ul>
   </div>
 </footer>
 <script>
-  function myFunction() 
+  function myFunction()
   {
     var x = document.getElementById("myTopnav");
-    if (x.className === "nav") 
+    if (x.className === "nav")
     {
       x.className += " responsive";
-    } 
-    else 
+    }
+    else
     {
       x.className = "nav";
     }
