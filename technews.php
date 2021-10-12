@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Technews</title>
+    <title>Technews test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -113,7 +113,7 @@
       <li><a href="categories.php">Categories</a></li>
       <li><a href="validate.php">Build Your Rig</a></li>
       <li>
-          <?php 
+          <?php
           session_start();
           if(isset($_SESSION['uid']))
           {
