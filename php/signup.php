@@ -3,7 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-        <link href="footer_css.css" type="text/css" rel="stylesheet">
+        <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       .navcontainer
       {

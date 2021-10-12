@@ -4,15 +4,15 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="navfootmedia.css" type="text/css" rel="stylesheet">
+    <link href="../css/navfootmedia.css" type="text/css" rel="stylesheet">
     <style>
-      table 
+      table
       {
         width: 100%;
       }
-      th, td 
+      th, td
       {
         padding: 15px;
         text-align: left;
@@ -39,7 +39,7 @@
           border: 10px solid white;
       }
       body {background-color: #000000;
-      background-image: url('images/case2.jpg');
+      background-image: url('../images/case2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100% 90%;
@@ -129,11 +129,11 @@
         width: 100%;
         height: 50%;
       }
-      table 
+      table
       {
         width: 100%;
       }
-      th, td 
+      th, td
       {
         text-align: left;
         border-bottom: 1px solid white;
@@ -155,7 +155,7 @@
           <li><a href="categories.php">Categories</a></li>
           <li><a href="validate.php" class="active">Build Your Rig</a></li>
           <li>
-          <?php 
+          <?php
           session_start();
           if(isset($_SESSION['uid']))
           {
@@ -165,7 +165,7 @@
           {
             echo'<a href="form.php" style="text-decoration:none">Login</a>';
           }
-          ?></li>    
+          ?></li>
         </ul>
       </div>
     </div>
@@ -178,13 +178,13 @@
               <li class='ele'><a href="">Terms and condition</a></li>
               <li class='ele'><a href="">Support US</a></li>
             </ul>
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'> 
+            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
               <li class='ele'><a href="feedback.php">Feedback</a></li>
               <li class='ele'><a href="request form.php">Spare parts form</a></li>
             </ul>
             <ul type=none>
-              <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-              <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+              <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+              <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
             </ul>
           </div>
         </footer>
@@ -197,9 +197,9 @@
 	var cont=document.getElementById('disp')
       function callme(){
         var ourrequest = new XMLHttpRequest();
-        ourrequest.open("GET", "cmptble.json");
+        ourrequest.open("GET", "../cmptble.json");
         ourrequest.onload = function(){
-            var ourdata= JSON.parse(ourrequest.responseText);
+            var ourdata= JSON.parse(ourrequest.cssonseText);
             var output = '';
             for(var i=0;i<ourdata.length;i++)
             {
@@ -211,7 +211,7 @@
                     }
                 }
               }
-            output+='</table></center>'; 
+            output+='</table></center>';
             cont.insertAdjacentHTML('beforeend',output);
           }
           ourrequest.send();

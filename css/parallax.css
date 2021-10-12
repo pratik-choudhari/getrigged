@@ -19,7 +19,7 @@
   }
   #parallax1
   {
-    background-image: url("mining.jpg");
+    background-image: url("../images/mining.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +28,7 @@
   }
   #parallax2
   {
-    background-image: url("ram.jpeg");
+    background-image: url("../images/ram.jpeg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -37,7 +37,7 @@
   }
   #parallax3
   {
-    background-image: url("cooling.jpg");
+    background-image: url("../images/cooling.jpg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -46,7 +46,7 @@
   }
   #parallax4
   {
-    background-image: url("game.jpg");
+    background-image: url("../images/game.jpg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;

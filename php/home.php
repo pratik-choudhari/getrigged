@@ -1,15 +1,15 @@
+<?php
+  session_start();?>
 <!DOCTYPE html>
 <html>
 <head>
-  <?php
-  session_start();?>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="parallax.css">
-  <link rel="stylesheet" type="text/css" href="navfootmedia.css">
+  <link rel="stylesheet" type="text/css" href="../css/parallax.css">
+  <link rel="stylesheet" type="text/css" href="../css/navfootmedia.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href="footer_css.css" type="text/css" rel="stylesheet">
+  <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -189,7 +189,7 @@
         <li><a href="prebuilds.php">Prebuilds</a></li>
         <li><a href="categories.php">Categories</a></li>
         <li><a href="validate.php">Build Your Rig</a></li>
-        <li><?php 
+        <li><?php
             if(isset($_SESSION['uid']))
             {
               echo'<a href="logout.php" style="text-decoration:none">Logout</a>';
@@ -238,13 +238,13 @@
               <li class='ele'><a href="">Terms and condition</a></li>
               <li class='ele'><a href="">Support US</a></li>
             </ul>
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'> 
+            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
               <li class='ele'><a href="feedback.php">Feedback</a></li>
               <li class='ele'><a href="request form.php">Spare parts form</a></li>
             </ul>
             <ul type=none>
-              <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-              <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+              <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+              <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
             </ul>
           </div>
   </footer>
@@ -252,7 +252,7 @@
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "nav") {
-        x.className += " responsive";
+        x.className += " cssonsive";
         } else {
         x.className = "nav";
         }
@@ -280,7 +280,7 @@
         {
           window.location.href="build.php";
         }
-        else 
+        else
         {
           window.location.href="form.php";
         }

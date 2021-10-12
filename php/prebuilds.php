@@ -1,14 +1,16 @@
+<?php
+  session_start();?>
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="navfootmedia.css">
+    <link rel="stylesheet" type="text/css" href="../css/navfootmedia.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="pre_media.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       p
       {
@@ -37,7 +39,7 @@
         padding: 1%;
       }
       body {background-color: #000000;
-      background-image: url('images/case1.jpeg');
+      background-image: url('../images/case1.jpeg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -138,8 +140,7 @@
           <li><a href="prebuilds.php" class="active">Prebuilds</a></li>
           <li><a href="categories.php">Categories</a></li>
           <li><a href="validate.php">Build Your Rig</a></li>
-          <li><?php 
-          session_start();
+          <li><?php
           if(isset($_SESSION['uid']))
           {
             echo'<a href="logout.php" style="text-decoration:none">Logout</a>';
@@ -247,15 +248,15 @@
           <li class='ele'><a href="request form.php">Spare parts form</a></li>
         </ul>
         <ul type=none>
-          <li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-          <li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+          <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+          <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
         </ul>
     </footer>
     <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "nav") {
-        x.className += " responsive";
+        x.className += " cssonsive";
         } else {
         x.className = "nav";
         }
