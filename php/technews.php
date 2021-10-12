@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="slides.css" type="text/css" rel="stylesheet">
+    <link href="../css/slides.css" type="text/css" rel="stylesheet">
     <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       .navcontainer
