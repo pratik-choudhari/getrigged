@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="parallax.css">
-  <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+  <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <title>Home</title>
   <style>

@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="slides.css" type="text/css" rel="stylesheet">
-    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       .navcontainer
       {

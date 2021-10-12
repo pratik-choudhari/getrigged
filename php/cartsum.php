@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
@@ -164,8 +164,8 @@
           dataType: "php",
           data:{
           },
-          success: function(response){
-            $("#cart").php(response);
+          success: function(cssonse){
+            $("#cart").php(cssonse);
             }
           });
         });

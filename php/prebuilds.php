@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="../resp/navfootmedia.css">
+    <link rel="stylesheet" type="text/css" href="../css/navfootmedia.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="pre_media.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
-    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       p
       {
@@ -255,7 +255,7 @@
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "nav") {
-        x.className += " responsive";
+        x.className += " cssonsive";
         } else {
         x.className = "nav";
         }

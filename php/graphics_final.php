@@ -6,9 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="../resp/footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="../resp/navfootmedia.css" type="text/css" rel="stylesheet">
+    <link href="../css/navfootmedia.css" type="text/css" rel="stylesheet">
     <style>
       table
       {
@@ -203,7 +203,7 @@
         ourrequest.open("GET", "../cmptble.json");
         ourrequest.onload = function()
         {
-            var ourdata= JSON.parse(ourrequest.responseText);
+            var ourdata= JSON.parse(ourrequest.cssonseText);
             var output = '';
             for(var i=0;i<ourdata.length;i++)
             {
