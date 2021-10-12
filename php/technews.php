@@ -1,3 +1,5 @@
+<?php
+          session_start();?>
 <!doctype html>
 <html>
 <head>
@@ -5,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="slides.css" type="text/css" rel="stylesheet">
-    <link href="footer_css.css" type="text/css" rel="stylesheet">
+    <link href="../css/slides.css" type="text/css" rel="stylesheet">
+    <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <style>
       .navcontainer
       {
@@ -114,7 +116,6 @@
       <li><a href="validate.php">Build Your Rig</a></li>
       <li>
           <?php
-          session_start();
           if(isset($_SESSION['uid']))
           {
             echo'<a href="logout.php" style="text-decoration:none">Logout</a>';
@@ -131,15 +132,15 @@
 <div>
   <div class="slideshow-container">
   <div class="mySlides fade">
-    <img src="images/vision.jpg" style="width:100%" class="fit">
+    <img src="../images/vision.jpg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   <div class="mySlides fade">
-    <img src="game.jpg" style="width:100%" class="fit">
+    <img src="../images/game.jpg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   <div class="mySlides fade">
-    <img src="gaming.jpeg" style="width:100%" class="fit">
+    <img src="../images/gaming.jpeg" style="width:100%" class="fit">
     <div class="text">C</div>
   </div>
   </div>
@@ -162,7 +163,7 @@
                 <td style="padding: 10px"><div class="header-s" style="font-family: Tahoma, Geneva, sans-serif; font-size: 20px; font-weight: bold; font-style: normal; text-align: left">Google says it has a secret China search project, but reveals no details</div></td>
               </tr>
               <tr>
-                <td style="padding: 10px"><div><img alt="Seattle, WA" src="images/google_logo.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+                <td style="padding: 10px"><div><img alt="Seattle, WA" src="../images/google_logo.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
               </tr>
               <tr>
                 <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
@@ -186,7 +187,7 @@
 </div></td>
               </tr>
               <tr>
-                <td style="padding: 10px"><div><img alt="Vancouver, BC" src="images/aws.jpeg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+                <td style="padding: 10px"><div><img alt="Vancouver, BC" src="../images/aws.jpeg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
               </tr>
               <tr>
                 <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
@@ -211,7 +212,7 @@
 </div></td>
               </tr>
               <tr>
-                <td style="padding: 10px"><div><img alt="San Francisco, CA" src="images/office.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+                <td style="padding: 10px"><div><img alt="San Francisco, CA" src="../images/office.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
               </tr>
               <tr>
                 <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
@@ -235,6 +236,7 @@
   </tr>
 </table>
 </div>
+</div>
 <footer>
   <div class="footer">
     <ul type=none style='padding-left:50px; border-right: 4px solid red'>
@@ -247,8 +249,8 @@
     	<li class='ele'><a href="request form.php">Spare parts form</a></li>
     </ul>
     <ul type=none>
-    	<li class='ele'><img src='fb.png' style='zoom:200%;'></li>
-    	<li class='ele'><img src='insta.jpg' style='width:32px;height:32px;'></li>
+    	<li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+    	<li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
     </ul>
   </div>
 </footer>
