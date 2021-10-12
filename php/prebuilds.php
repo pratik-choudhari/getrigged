@@ -1,3 +1,5 @@
+<?php
+  session_start();?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -139,7 +141,6 @@
           <li><a href="categories.php">Categories</a></li>
           <li><a href="validate.php">Build Your Rig</a></li>
           <li><?php
-          session_start();
           if(isset($_SESSION['uid']))
           {
             echo'<a href="logout.php" style="text-decoration:none">Logout</a>';

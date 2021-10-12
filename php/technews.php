@@ -1,3 +1,5 @@
+<?php
+          session_start();?>
 <!doctype html>
 <html>
 <head>
@@ -114,7 +116,6 @@
       <li><a href="validate.php">Build Your Rig</a></li>
       <li>
           <?php
-          session_start();
           if(isset($_SESSION['uid']))
           {
             echo'<a href="logout.php" style="text-decoration:none">Logout</a>';

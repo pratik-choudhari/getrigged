@@ -1,8 +1,8 @@
+<?php
+  session_start();?>
 <!DOCTYPE html>
 <html>
 <head>
-  <?php
-  session_start();?>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
