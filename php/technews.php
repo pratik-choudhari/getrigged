@@ -151,42 +151,91 @@
     <span class="dot"></span>
   </div>
 </div>
-<div class='genericdiv'>
-  <div>
-    <img src='../images/google_logo.jpg' class='floatimg' style="width:500px;height:250px;"></img>
-  </div>
-    <div style='padding-left:600px;'>
-    <h1>Google says it has a secret China search project, but reveals no details</h1>
-    <p>Without giving out much details about Google's reported plan to launch a censored version
-       of its search engine in China, a top company executive told lawmakers in the US that the company would follow its
-       privacy and security controls in case it pursues any interest in China.Appearing before members of the US Congress at a Senate Commerce Committee hearing on Wednesday, Google's Chief Privacy Officer, Keith Enright, went so far as to
-       confirm that the China search project does exist, The Wired reported. </p>
-  </div>
+<div style="padding:30px;color: #ffffff;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%" width="100%">
+  <tr>
+    <td bgcolor="#FFFFFF" style="background-color: #000000;">
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100% !important" width="100%">
+        <tr>
+          <td class="cell" style="width: 33%; vertical-align: top" width="33%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100% !important" width="100%">
+              <tr>
+                <td style="padding: 10px"><div class="header-s" style="font-family: Tahoma, Geneva, sans-serif; font-size: 20px; font-weight: bold; font-style: normal; text-align: left">Google says it has a secret China search project, but reveals no details</div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div><img alt="Seattle, WA" src="../images/google_logo.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
+                Without giving out much details about Google's reported plan to launch a censored version of its search engine in China, a top company executive told lawmakers in the US that the company would follow its privacy and security controls in case it pursues any interest in China.Appearing before members of the US Congress at a Senate Commerce Committee hearing on Wednesday, Google's Chief Privacy Officer, Keith Enright, went so far as to confirm that the China search project does exist, The Wired reported.</div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" style="text-align: center; margin-left: auto; margin-right: auto">
+                    <tr>
+                      <td align="center" bgcolor="#2181A5" style="background-color: #2181A5; padding: 10px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px"><a href="#" style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none"><span style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none">Read more</span></a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="cell" style="width: 33%; vertical-align: top" width="33%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100% !important" width="100%">
+              <tr>
+                <td style="padding: 10px"><div class="header-s" style="font-family: Tahoma, Geneva, sans-serif; font-size: 20px; font-weight: bold; font-style: normal; text-align: left">Google, IBM and others come together to take on Amazon's cloud business
+</div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div><img alt="Vancouver, BC" src="../images/aws.jpeg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
+                A group of cloud computing companies is taking aim at Amazon.com's dominant Amazon Web Services by offering free or deeply discounted rates on moving data between their cloud services. The Bandwidth Alliance, as the group calls itself, launched on Wednesday and includes large cloud computing firms such as Alphabet Inc's Google Cloud, Microsoft Corp's Azure and International Business Machines' IBM Cloud, as well independent firms such as Digital Ocean, Backblaze and Packet.
+              </div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" style="text-align: center; margin-left: auto; margin-right: auto">
+                    <tr>
+                      <td align="center" bgcolor="#2181A5" style="background-color: #2181A5; padding: 10px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px"><a href="#" style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none"><span style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none">Read more</span></a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="cell" style="width: 33%; vertical-align: top" width="33%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100% !important" width="100%">
+              <tr>
+                <td style="padding: 10px"><div class="header-s" style="font-family: Tahoma, Geneva, sans-serif; font-size: 20px; font-weight: bold; font-style: normal; text-align: left">LinkedIn wants to help recruiters understand job market better with new tool
+</div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div><img alt="San Francisco, CA" src="../images/office.jpg" style="display: block; height: auto; width: 100%" width="196" /></div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px"><div style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; text-align: center">
+                Mumbai: To help recruiters tap into a talented workforce, professional social network site LinkedIn on Wednesday launched its first self-service analytics product called "Talent Insights". With this tool, firms can now take the guesswork out of their hiring strategies and equip themselves with market and geo-agnostic intelligence to understand their workforce better. "Building on the era of talent intelligence, 'Talent Insights' helps in making strategic talent decisions with an insight into the movement and development of talent.
+              </div></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" style="text-align: center; margin-left: auto; margin-right: auto">
+                    <tr>
+                      <td align="center" bgcolor="#2181A5" style="background-color: #2181A5; padding: 10px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px"><a href="#" style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none"><span style="font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: #FFFFFF; font-style: normal; font-weight: bold; text-align: center; text-decoration: none">Read more</span></a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 </div>
-<div class='genericdiv'>
-  <div>
-    <img src='../images/aws.jpeg' class='floatimg' style="width:500px;height:250px;"></img>
-  </div>
-  <div style='padding-left:600px;'>
-    <h1>Google, IBM and others come together to take on Amazon's cloud business</h1>
-    <p>A group of cloud computing companies is taking aim at Amazon.com's dominant Amazon Web Services by offering free or deeply discounted rates on moving data between their cloud services.
-The Bandwidth Alliance, as the group calls itself, launched on Wednesday and includes large cloud computing firms such as Alphabet Inc's Google Cloud,
-Microsoft Corp's Azure and International Business Machines' IBM Cloud, as well independent firms such as Digital Ocean, Backblaze and Packet.
- </p>
-  </div>
-</div>
-<div class='genericdiv'>
-  <div>
-    <img src='../images/office.jpg' class='floatimg' style="width:500px;height:250px;"></img>
-  </div>
-  <div style='padding-left:600px;'>
-    <h1>LinkedIn wants to help recruiters understand job market better with new tool</h1>
-    <p>Mumbai: To help recruiters tap into a talented workforce, professional social network site LinkedIn on Wednesday launched its first self-service analytics product called "Talent Insights".
-
-With this tool, firms can now take the guesswork out of their hiring strategies and equip themselves with market and geo-agnostic intelligence to understand their workforce better.
-
-"Building on the era of talent intelligence, 'Talent Insights' helps in making strategic talent decisions with an insight into the movement and development of talent.  </p>
-  </div>
 </div>
 <footer>
   <div class="footer">
