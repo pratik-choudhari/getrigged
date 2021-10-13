@@ -5,11 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/navfootmedia.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../css/footer_css.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
+      input[type=text], input[type=password] {
+      width: calc(100% - 57px);
+      height: 36px;
+      margin: 13px 0 0 -5px;
+      padding-left: 10px; 
+      border-radius: 0 5px 5px 0;
+      border: solid 1px #cbc9c9; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #fff; 
+      }
+      form {
+      margin: 0 30px;
+      }
+      h1 {
+      padding: 10px 0;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+      }
+      input[type=password] {
+      margin-bottom: 15px;
+      }
+       label#icon {
+      margin: 0;
+      border-radius: 5px 0 0 5px;
+      }
+      #icon {
+      display: inline-block;
+      padding: 9.3px 15px;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #1c87c9;
+      color: #fff;
+      text-align: center;
+      }
       body
       {
         background-color: #000000;
@@ -77,40 +112,30 @@
       }
       .formcontainer
       {
-        background-color:rgba( 189, 189, 189 ,1) ;
-        width:40%;
-        height:350px;
-        border-radius: 14px;
+      max-width: 320px; 
+      padding: 20px;
+      margin: auto;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+
       }
-      .centerize
-      {
-        font-size: 40px;
-        padding-top: 20px;
+      button {
+      width: 100%;
+      padding: 10px 0;
+      margin: 10px auto;
+      border-radius: 5px; 
+      border: none;
+      background: #1c87c9; 
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
       }
-      input
-      {
-        width: 50%;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        opacity: 0.85;
-        display: inline-block;
-        font-size: 17px;
-        text-decoration: none;
+      button:hover {
+      background: #26a9e0;
       }
-      input[type=submit]
-      {
-        background-color: #000000;
-        color: white;
-        cursor: pointer;
-      }
-      input[type=submit]:hover
-      {
-        background-color: white;
-        color:black;
-      }
-    </style>
-    <style>
+
       @media screen and (max-width:1200px)
       {
         label
@@ -132,15 +157,11 @@
         {
           font-size: 10px;
         }
-        .formcontainer
-        {
-          height:300px;
-        }
       }
     </style>
     <title>Login</title>
   </head>
-  <body style="">
+  <body>
     <div class='navcontainer' id='demo'>
       <div class='rigged'>
         GetRigged.com
@@ -158,71 +179,73 @@
         </ul>
       </div>
     </div>
-    <center><div class='formcontainer'>
+    <center>
       <div id='error' style="font-size:25px;display: none;border: 6px solid grey;width:70%;margin-top: 30px;border-radius: 8px;height: 20%;">Login Failed. <br>Check for credentials</div>
-      <form  method="POST" onsubmit="return dologin()" accept-charset=utf-8>
-        <div class='centerize'>
-          <label>Username:</label>
-          <input type='text' name='uid' id='userid' style='' required></input>
+      <form  method="post" onsubmit="return dologin()" accept-charset="utf-8">
+        <div class='formcontainer'>
+
+          <label id="icon" for="uid"><i class="fas fa-user"></i></label>
+          <input type="text" name="uid" placeholder="Username" required/><br>
+          
+          <label id="icon" for="pass"><i class="fas fa-unlock-alt"></i></label>
+          <input type="password" name="pass" placeholder="Password" required/>
+
+          <a href='signup.php' style='font-size: 12px;color: green;'>Not a member?Sign up</a>
           <br>
-          <br>
-          <label>Password: </label>
-          <input type='text' name='pass' id='passw' required></input>
-          <br>
-          <a href='signup.php' style='font-size: 20px;color: green;'>Not a member?Sign up</a>
-          <br>
-          <input type="submit" value="Login">
-        </div></form></center>
-        <footer>
-          <div class="footer">
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
-            	<li class='ele'><a href="">About Us</a></li>
-            	<li class='ele'><a href="">Terms and condition</a></li>
-            	<li class='ele'><a href="">Support US</a></li>
-            </ul>
-            <ul type=none style='padding-left:50px; border-right: 4px solid red'>
-            	<li class='ele'><a href="feedback.php">Feedback</a></li>
-            	<li class='ele'><a href="request form.php">Spare parts form</a></li>
-            </ul>
-            <ul type=none>
-            	<li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
-            	<li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
-            </ul>
-          </div>
-        </footer>
-        <script>
-        function dologin()
-        {
-         var email=$("#userid").val();
-         var pass=$("#passw").val();
-            $.ajax
-            ({
-            type:"POST",
-            dataType: "text",
-            url:"loginscript.php",
-            data:{uid:email,pass:pass},
-            cache:false,
-            success:function(data) {
-            if(data=="ok")
-            {
-              window.location.href="build.php";
-            }
-            else
-            {
-              window.location.href="form.php";
-            }
-            }
-            });
-            return false;
-        }
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "nav") {
-        x.className += " cssonsive";
-        } else {
-        x.className = "nav";
-        }
-    }
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </center>
+    <footer>
+      <div class="footer">
+        <ul type=none style='padding-left:50px; border-right: 4px solid red'>
+          <li class='ele'><a href="">About Us</a></li>
+          <li class='ele'><a href="">Terms and condition</a></li>
+          <li class='ele'><a href="">Support US</a></li>
+        </ul>
+        <ul type=none style='padding-left:50px; border-right: 4px solid red'>
+          <li class='ele'><a href="feedback.php">Feedback</a></li>
+          <li class='ele'><a href="request form.php">Spare parts form</a></li>
+        </ul>
+        <ul type=none>
+          <li class='ele'><img src='../images/fb.png' style='zoom:200%;'></li>
+          <li class='ele'><img src='../images/insta.jpg' style='width:32px;height:32px;'></li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      function dologin()
+      {
+      var email=$("#userid").val();
+      var pass=$("#passw").val();
+          $.ajax
+          ({
+          type:"POST",
+          dataType: "text",
+          url:"loginscript.php",
+          data:{uid:email,pass:pass},
+          cache:false,
+          success:function(data) {
+          if(data=="ok")
+          {
+            window.location.href="build.php";
+          }
+          else
+          {
+            window.location.href="form.php";
+          }
+          }
+          });
+          return false;
+      }
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav") {
+          x.className += " cssonsive";
+          } else {
+          x.className = "nav";
+          }
+      }
     </script>
   </body>
 </html>
