@@ -13,3 +13,6 @@ List of things needed to be done:
 2. Delete unnecessary files.
 3. Refactor code for anti patterns and bad practices (this is going to take a while).
 4. Test application
+
+Start server:
+`php -S localhost:5000 -t .`
