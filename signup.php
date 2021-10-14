@@ -60,9 +60,9 @@
       }
       .formcontainer
       {
-        background-color:rgba( 189, 189, 189 ,1) ;
+        background-color:rgba( 189, 189, 189 , 0.8 ) ;
         width:40%;
-        height:53.125rem;
+        height:45rem;
         border-radius: 0.875rem;
       }
       .centerize
@@ -70,18 +70,24 @@
         font-size: 1.875rem;
         padding-top: 1.25rem;
       }
+      label {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3.75rem;
+        font-size: 1.50rem;
+      }
       input
       {
         width: 80%;
-  padding: 0.625rem 1.250rem;
-  margin: 0.5px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
+        padding: 0.50rem 1.250rem;
+        margin: 0.5px 0;
+        border: 1px solid #ccc;
   box-sizing: border-box;
         text-decoration: none; /* remove underline from anchors */
       }
       input[type=submit]
       {
+        width: 50%;
         background-color: #000000;
         color: white;
         cursor: pointer;
@@ -91,6 +97,7 @@
         background-color: green;
         color:black;
       }
+      
     </style>
     <meta charset="utf-8">
     <title>Signup</title>
